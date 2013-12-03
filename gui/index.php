@@ -1,4 +1,3 @@
-
  <?php
 	include('inc/Class.php');
 	$ToRssGUI = new ToRssGUI();
@@ -18,15 +17,15 @@
 	}
 
 	//CSS Style
-//	echo '
-//		<style type="text/css">
-  //  		.wrap { display:block; border: 1px solid #000; height:365px; width:600px;}
-    //		.EditShows { margin: -380px 0 0 100px; width:450px;}
-    //		.DisplayShows { margin: 0 0 0 -450px; width:150px; border-right: 1px solid #000;}
-    //		.menu { border: 1px solid #000; width: 600px; border-bottom: 0;}
-    //		a { text-decoration: none;}
-    //	</style>
-	//	';
+	echo '
+		<style type="text/css">
+    		.wrap { display:block; border: 1px solid #000; height:365px; width:600px;}
+   		.EditShows { margin: -380px 0 0 100px; width:450px;}
+    		.DisplayShows { margin: 0 0 0 -450px; width:150px; border-right: 1px solid #000;}
+    		.menu { border: 1px solid #000; width: 600px; border-bottom: 0;}
+    		a { text-decoration: none;}
+    	</style>
+		';
 
 	// Stores values from form
 	$values = array('name' => $_GET['Name'], 
